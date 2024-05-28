@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'HyundaiHeadMedium';
+  src: url('@/assets/fonts/hyundaisanshead-medium.eot');
+  src:
+    url('@/assets/fonts/hyundaisanshead-medium.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/hyundaisanshead-medium.woff2') format('woff2'),
+    url('@/assets/fonts/hyundaisanshead-medium.svg') format('svg'),
+    url('@/assets/fonts/hyundaisanshead-medium.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HyundaiHeadReg';
+  src: url('@/assets/fonts/hyundaisanshead-regular.eot');
+  src:
+    url('@/assets/fonts/hyundaisanshead-regular.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/hyundaisanshead-regular.woff2') format('woff2'),
+    url('@/assets/fonts/hyundaisanshead-regular.svg') format('svg'),
+    url('@/assets/fonts/hyundaisanshead-regular.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  font-family: 'HyundaiHeadReg', sans-serif;
+  button {
+    font-family: 'HyundaiHeadMedium', sans-serif;
+    font-size: 17px;
+  }
+
+  span {
+    font-family: 'HyundaiHeadReg', sans-serif;
+  }
+
+  input {
+    font-family: 'HyundaiHeadReg', sans-serif;
+    font-size: 17px;
+  }
+
+  p {
+    font-family: 'HyundaiHeadReg', sans-serif;
+  }
+
+  strong {
+    font-family: 'HyundaiHeadMedium', sans-serif;
+  }
+}
